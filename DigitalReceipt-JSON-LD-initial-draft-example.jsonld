@@ -1,0 +1,127 @@
+{
+  "@context": {
+    "gs1": "https://gs1.org/voc/",
+    "gs1x": "https://extra.gs1.org/voc/",
+    "schema": "https://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "@vocab": "https://extra.gs1.org/voc/",
+    "receiptDateTime": {
+      "@type": "xsd:dateTime"
+    },
+    "gs1:expirationDate": {
+      "@type": "xsd:date"
+    },
+    "gs1:productName": {
+      "@container": "@language"
+    },
+    "gs1:price": {
+      "@type": "xsd:float"
+    },
+    "gs1:value": {
+      "@type": "xsd:float"
+    },
+    "amount": {
+      "@type": "xsd:float"
+    },
+    "gs1:dutyFeeTaxRate": {
+      "@type": "xsd:float"
+    },
+    "gs1:dutyFeeTaxAmount": {
+      "@type": "xsd:float"
+    },
+    "type": "@type",
+    "id": "@id"
+  },
+  "id": "https://id.herstore.com/253/06141415824698765",
+  "type": "DigitalReceipt",
+  "posIdentification": {"id":"https://id.herstore.com/8004/0614141P65252EA38329"},
+  "receiptDateTime": "2021-05-04T18:13:51Z",
+  "transactionIdentification": "06141415824698765",
+  "seller": {
+    "id": "https://id.herstore.com/417/9523123498765",
+    "type": "gs1:Organization",
+    "gs1:organisationName": "Her Store Supermarket",
+    "gs1:address": {
+      "type": "gs1:PostalAddress",
+      "gs1:streetAddress": "123 Main Street",
+      "gs1:addressLocality": "MyTown",
+      "gs1:postalCode": "55555",
+      "gs1:addressCountry": {"gs1:countryCode": "US"}
+    },
+    "gs1:contactPoint": {
+      "type": "gs1:ContactPoint",
+      "gs1:telephone": "+1-405-555-1234"
+    }
+  },
+  "buyerInformation": {
+    "type": "gs1:ContactPoint",
+    "gs1:telephone": "+1-405-444-3456"
+  },
+  "paymentDetails": [
+    {
+      "paymentMethod": "PaymentMethodCode-GIFT_CARD",
+      "type": "PaymentDetails",
+      "amountTendered": {
+        "type": "MonetaryAmount",
+        "amount": 1.00,
+        "currency": "USD"
+      },
+      "amountReturned": {
+        "type": "MonetaryAmount",
+        "amount": 0,
+        "currency": "USD"
+      }
+    },
+    {
+      "paymentMethod": "gs1:PaymentMethodCode-CASH",
+      "type": "PaymentDetails",
+      "amountTendered": {
+        "type": "MonetaryAmount",
+        "amount": 3.26,
+        "currency": "USD"
+      },
+      "amountReturned": {
+        "type": "MonetaryAmount",
+        "amount": 0,
+        "currency": "USD"
+      }
+    }
+  ],
+  "hasLineItem": [
+    {
+      "itemPurchased": {
+        "id": "https://id.GreenBrand.example/01/00071430000847/10/BLT123?17=210511&11=210501",
+        "type": "gs1:Product",
+        "gs1:productName": {
+          "en": "Green Brand Head of Lettuce"
+        },
+        "gs1:gtin": "00071430000847",
+        "gs1:hasBatchLotNumber": "ABC123",
+        "gs1:expirationDate": "2021-05-11",
+        "gs1:productionDate": "2021-05-01",
+        "gs1:priceSpecification": {
+          "type": "gs1:PriceSpecification",
+          "gs1:price": 3.99,
+          "gs1:priceCurrency": "USD",
+          "gs1:dutyFeeTaxDescription": "SAT",
+          "gs1:dutyFeeTaxRate": 6.8,
+          "gs1:dutyFeeTaxAmount": 0.27,
+          "valueAddedTaxIncluded": true
+        }
+      },
+      "quantityPurchased": {
+        "type": "gs1:QuantitativeValue",
+        "gs1:value": "1",
+        "gs1:unitCode": "EA"
+      }
+    }
+  ],
+  "totalPrice": {
+    "type": "gs1:PriceSpecification",
+    "gs1:price": 3.99,
+    "gs1:priceCurrency": "USD",
+    "gs1:dutyFeeTaxDescription": "SAT",
+    "gs1:dutyFeeTaxRate": 6.8,
+    "gs1:dutyFeeTaxAmount": 0.27
+  }
+}
