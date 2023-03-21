@@ -11,6 +11,9 @@
     "gs1:expirationDate": {
       "@type": "xsd:date"
     },
+    "gs1:productionDate": {
+      "@type": "xsd:date"
+    },
     "gs1:productName": {
       "@container": "@language"
     },
