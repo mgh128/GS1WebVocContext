@@ -21,10 +21,7 @@
       "gs1:telephone": "+1-123-456-7891"
     }
   },
-  "buyerInformation": {
-    "type": "gs1:ContactPoint",
-    "gs1:telephone": "+1-123-2456-7891"
-  },
+  "buyerInformation": "https://id.thegrocerystore.com/8018/952312342345678907",
   "paymentDetails": [
     {
       "paymentMethod": "PaymentMethodCode-DEBIT_CARD",
@@ -41,10 +38,10 @@
       }
     }
   ],
-  "hasLineItem": [
+ "hasLineItem": [
     {
       "itemPurchased": {
-        "id": "https://id.HealthyTots.example/01/814141002226/10/XY1ABC?17=210511&11=230501",
+        "id": "https://id.HealthyTots.example/01/814141002226/10/XY1ABC?17=230511&11=230301",
         "type": "gs1:Product",
         "gs1:productName": {
           "en": "Healthy Tots Baby Formula"
@@ -69,9 +66,9 @@
         "gs1:unitCode": "EA"
       }
     },
-    {
+ {
       "itemPurchased": {
-        "id": "https://id.ChiksGalore.example/01/814141002224/10/XY11ZZ?17=210511&11=230428",
+        "id": "https://id.ChiksGalore.example/01/814141002224/10/XY11ZZ?17=230428&11=230201",
         "type": "gs1:Product",
         "gs1:productName": {
           "en": "Large Brown Eggs"
@@ -97,7 +94,7 @@
       }
     }
   ],
-  "totalPrice": {
+ "totalPrice": {
     "type": "gs1:PriceSpecification",
     "gs1:price": 37.40,
     "gs1:priceCurrency": "USD",
