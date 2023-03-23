@@ -21,7 +21,7 @@
       "gs1:telephone": "+1-123-456-7891"
     }
   },
-  "buyerInformation": "https://id.thegrocerystore.com/8018/952312342345678907",
+  "buyer": {"id": "https://id.thegrocerystore.com/8018/952312342345678907" },
   "paymentDetails": [
     {
       "paymentMethod": "PaymentMethodCode-DEBIT_CARD",
