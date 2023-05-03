@@ -40,9 +40,12 @@
       "@id":"gs1:dutyFeeTaxAmount",
       "@type": "xsd:float"
     },
+    "DigitalReceipt": {"@id":"gs1x:DigitalReceipt"},
     "Organization": {"@id":"gs1:Organization"},
     "PostalAddress": {"@id":"gs1:PostalAddress"},
     "PriceSpecification": {"@id":"gs1:PriceSpecification"},
+    "posIdentification" : {"@id":"gs1x:posIdentification"},
+    "transactionIdentification" : {"@id":"gs1x:transactionIdentification"},
     "organizationName" : {"@id":"gs1:organizationName"},
     "address" : {"@id":"gs1:address"},
     "streetAddress" : {"@id":"gs1:streetAddress"},
