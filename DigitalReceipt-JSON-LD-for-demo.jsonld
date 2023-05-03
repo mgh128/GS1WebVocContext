@@ -7,14 +7,14 @@
   "transactionIdentification": "06141415824698765",
   "seller": {
     "id": "https://id.thegrocerystore.com/417/9523123498765",
-    "type": "gs1:Organization",
-    "gs1:organisationName": "The Grocery Store",
-    "gs1:address": {
-      "type": "gs1:PostalAddress",
-      "gs1:streetAddress": "120 Store Shop Avenue",
-      "gs1:addressLocality": "Elkridge",
-      "gs1:postalCode": "21043",
-      "gs1:addressCountry": {"gs1:countryCode": "US"}
+    "type": "Organization",
+    "organisationName": "The Grocery Store",
+    "address": {
+      "type": "PostalAddress",
+      "streetAddress": "120 Store Shop Avenue",
+      "addressLocality": "Elkridge",
+      "postalCode": "21043",
+      "addressCountry": {"countryCode": "US"}
     },
     "gs1:contactPoint": {
       "type": "gs1:ContactPoint",
@@ -52,11 +52,11 @@
         "gs1:productionDate": "2023-03-01",
         "gs1:priceSpecification": {
           "type": "gs1:PriceSpecification",
-          "gs1:price": 32.00,
+          "price": 32.00,
           "gs1:priceCurrency": "USD",
           "gs1:dutyFeeTaxDescription": "SAT",
-          "gs1:dutyFeeTaxRate": 6.0,
-          "gs1:dutyFeeTaxAmount": 1.92,
+          "dutyFeeTaxRate": 6.0,
+          "dutyFeeTaxAmount": 1.92,
           "valueAddedTaxIncluded": false
         }
       },
@@ -79,11 +79,11 @@
         "gs1:productionDate": "2023-02-01",
         "gs1:priceSpecification": {
           "type": "gs1:PriceSpecification",
-          "gs1:price": 5.40,
+          "price": 5.40,
           "gs1:priceCurrency": "USD",
           "gs1:dutyFeeTaxDescription": "SAT",
-          "gs1:dutyFeeTaxRate": 6.0,
-          "gs1:dutyFeeTaxAmount": 0.32,
+          "dutyFeeTaxRate": 6.0,
+          "dutyFeeTaxAmount": 0.32,
           "valueAddedTaxIncluded": false
         }
       },
@@ -96,10 +96,10 @@
   ],
  "totalPrice": {
     "type": "gs1:PriceSpecification",
-    "gs1:price": 37.40,
+    "price": 37.40,
     "gs1:priceCurrency": "USD",
     "gs1:dutyFeeTaxDescription": "SAT",
-    "gs1:dutyFeeTaxRate": 6.0,
-    "gs1:dutyFeeTaxAmount": 2.24
+    "dutyFeeTaxRate": 6.0,
+    "dutyFeeTaxAmount": 2.24
   }
 }
