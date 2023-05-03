@@ -40,6 +40,17 @@
       "@id":"gs1:dutyFeeTaxAmount",
       "@type": "xsd:float"
     },
+    "Organization": {"@id":"gs1:Organization"},
+    "PostalAddress": {"@id":"gs1:PostalAddress"},
+    "PriceSpecification": {"@id":"gs1:PriceSpecification"},
+    "organizationName" : {"@id":"gs1:organizationName"},
+    "address" : {"@id":"gs1:address"},
+    "streetAddress" : {"@id":"gs1:streetAddress"},
+    "addressLocality" : {"@id":"gs1:addressLocality"},
+    "postalCode" : {"@id":"gs1:postalCode"},
+    "addressCountry" : {"@id":"gs1:addressCountry"},
+    "countryCode" : {"@id":"gs1:countryCode"},
+    
     "type": "@type",
     "id": "@id"
   }
