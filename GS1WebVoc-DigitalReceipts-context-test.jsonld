@@ -4,32 +4,40 @@
     "gs1x": "https://extra.gs1.org/voc/",
     "schema": "https://schema.org/",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
-    "@vocab": "https://extra.gs1.org/voc/",
     "receiptDateTime": {
+      "@id":"gs1x:receiptDateTime",
       "@type": "xsd:dateTime"
     },
-    "gs1:expirationDate": {
+    "expirationDate": {
+      "@id": "gs1:expirationDate",
       "@type": "xsd:date"
     },
-    "gs1:productionDate": {
+    "productionDate": {
+      "@id":"gs1:productionDate",
       "@type": "xsd:date"
     },
-    "gs1:productName": {
+    "productName": {
+      "@id":"gs1:productName",
       "@container": "@language"
     },
-    "gs1:price": {
+    "price": {
+      "@id":"gs1:price",
       "@type": "xsd:float"
     },
-    "gs1:value": {
+    "value": {
+      "@id":"gs1:value",
       "@type": "xsd:float"
     },
     "amount": {
+      "@id":"gs1x:amount",
       "@type": "xsd:float"
     },
-    "gs1:dutyFeeTaxRate": {
+    "dutyFeeTaxRate": {
+      "@id":"gs1:dutyFeeTaxRate",
       "@type": "xsd:float"
     },
-    "gs1:dutyFeeTaxAmount": {
+    "dutyFeeTaxAmount": {
+      "@id":"gs1:dutyFeeTaxAmount",
       "@type": "xsd:float"
     },
     "type": "@type",
