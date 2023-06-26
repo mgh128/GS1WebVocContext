@@ -6,7 +6,7 @@
     "xsd": "http://www.w3.org/2001/XMLSchema#",
 
     "type": "@type",
-    "id": "@id"
+    "id": "@id",
 
     "DigitalReceipt": {"@id":"gs1x:DigitalReceipt"},
     "posIdentification" : {"@id":"gs1x:posIdentification"},
@@ -71,7 +71,7 @@
     "Product": {"@id":"gs1:Product"},
     "Organization": {"@id":"gs1:Organization"},
     "PostalAddress": {"@id":"gs1:PostalAddress"},
-    "PriceSpecification": {"@id":"gs1:PriceSpecification"},
+    "PriceSpecification": {"@id":"gs1:PriceSpecification"}
 
     
   }
