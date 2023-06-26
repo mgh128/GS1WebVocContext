@@ -23,6 +23,8 @@
     "buyer": { "@id":"gs1x:buyer" },
     "paymentDetails": { "@id":"gs1x:paymentDetails" },
     "hasLineItem": { "@id":"gs1x:hasLineItem" },
+    "itemPurchased": { "@id":"gs1x:itemPurchased" },
+    "quantityPurchased": { "@id":"gs1x:quantityPurchased" },
 
 
     "expirationDate": {
