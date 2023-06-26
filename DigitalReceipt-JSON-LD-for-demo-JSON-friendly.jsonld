@@ -1,0 +1,101 @@
+{
+  "@context": "https://mgh128.github.io/GS1WebVocContext/GS1WebVoc-DigitalReceipts-context-extended.jsonld",
+  "id": "https://id.thegrocerystore.com/253/06141415824698765",
+  "type": "DigitalReceipt",
+  "posIdentification": {"id":"https://id.thegrocerystore.com/8004/0614141P65252EA38329"},
+  "receiptDateTime": "2021-05-04T18:13:51Z",
+  "transactionIdentification": "06141415824698765",
+  "seller": {
+    "id": "https://id.thegrocerystore.com/417/9523123498765",
+    "type": "Organization",
+    "organisationName": "The Grocery Store",
+    "address": {
+      "type": "PostalAddress",
+      "streetAddress": "120 Store Shop Avenue",
+      "addressLocality": "Elkridge",
+      "postalCode": "21043",
+      "addressCountry": {"countryCode": "US"}
+    },
+    "contactPoint": {
+      "type": "ContactPoint",
+      "telephone": "+1-123-456-7891"
+    }
+  },
+  "buyer": {"id": "https://id.thegrocerystore.com/8018/952312342345678907" },
+  "paymentDetails": [
+    {
+      "paymentMethod": "PaymentMethodCode-DEBIT_CARD",
+      "type": "PaymentDetails",
+      "amountTendered": {
+        "type": "MonetaryAmount",
+        "amount": 39.64,
+        "currency": "USD"
+      },
+      "amountReturned": {
+        "type": "MonetaryAmount",
+        "amount": 0,
+        "currency": "USD"
+      }
+    }
+  ],
+ "hasLineItem": [
+    {
+      "itemPurchased": {
+        "id": "https://id.HealthyTots.example/01/814141002226/10/XY1ABC?17=230511&11=230301",
+        "type": "Product",
+        "productName": {"en":"Healthy Tots Baby Formula"},
+        "gtin": "00814141002226",
+        "hasBatchLotNumber": "XY1ABC",
+        "expirationDate": "2023-05-11",
+        "productionDate": "2023-03-01",
+        "priceSpecification": {
+          "type": "PriceSpecification",
+          "price": 32.00,
+          "priceCurrency": "USD",
+          "dutyFeeTaxDescription": "SAT",
+          "dutyFeeTaxRate": 6.0,
+          "dutyFeeTaxAmount": 1.92,
+          "valueAddedTaxIncluded": false
+        }
+      },
+      "quantityPurchased": {
+        "type": "QuantitativeValue",
+        "value": "1",
+        "unitCode": "EA"
+      }
+    },
+ {
+      "itemPurchased": {
+        "id": "https://id.ChiksGalore.example/01/814141002224/10/XY11ZZ?17=230428&11=230201",
+        "type": "Product",
+        "productName": {"en":"Large Brown Eggs"},
+        "gtin": "00814141002224",
+        "hasBatchLotNumber": "XY11ZZ",
+        "expirationDate": "2023-04-28",
+        "productionDate": "2023-02-01",
+        "priceSpecification": {
+          "type": "PriceSpecification",
+          "price": 5.40,
+          "priceCurrency": "USD",
+          "dutyFeeTaxDescription": "SAT",
+          "dutyFeeTaxRate": 6.0,
+          "dutyFeeTaxAmount": 0.32,
+          "valueAddedTaxIncluded": false
+        }
+      },
+      "quantityPurchased": {
+        "type": "QuantitativeValue",
+        "value": "1",
+        "unitCode": "EA"
+      }
+    }
+  ],
+ "totalPrice": {
+    "type": "PriceSpecification",
+    "price": 37.40,
+    "priceCurrency": "USD",
+    "dutyFeeTaxDescription": "SAT",
+    "dutyFeeTaxRate": 6.0,
+    "dutyFeeTaxAmount": 2.24
+  }
+}

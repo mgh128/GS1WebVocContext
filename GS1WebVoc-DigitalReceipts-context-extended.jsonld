@@ -1,0 +1,78 @@
+{
+  "@context": {
+    "gs1": "https://gs1.org/voc/",
+    "gs1x": "https://extra.gs1.org/voc/",
+    "schema": "https://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+
+    "type": "@type",
+    "id": "@id"
+
+    "DigitalReceipt": {"@id":"gs1x:DigitalReceipt"},
+    "posIdentification" : {"@id":"gs1x:posIdentification"},
+    "transactionIdentification" : {"@id":"gs1x:transactionIdentification"},
+    "receiptDateTime": {
+      "@id":"gs1x:receiptDateTime",
+      "@type": "xsd:dateTime"
+    },
+    "amount": {
+      "@id":"gs1x:amount",
+      "@type": "xsd:float"
+    },
+
+
+    "expirationDate": {
+      "@id": "gs1:expirationDate",
+      "@type": "xsd:date"
+    },
+    "productionDate": {
+      "@id":"gs1:productionDate",
+      "@type": "xsd:date"
+    },
+    "productName": {
+      "@id":"gs1:productName",
+      "@container": "@language"
+    },
+    "price": {
+      "@id":"gs1:price",
+      "@type": "xsd:float"
+    },
+    "value": {
+      "@id":"gs1:value",
+      "@type": "xsd:float"
+    },
+    "dutyFeeTaxRate": {
+      "@id":"gs1:dutyFeeTaxRate",
+      "@type": "xsd:float"
+    },
+    "dutyFeeTaxAmount": {
+      "@id":"gs1:dutyFeeTaxAmount",
+      "@type": "xsd:float"
+    },
+    "contactPoint": {"@id":"gs1:contactPoint"},
+    "telephone": {"@id":"gs1:telephone"},
+    "gtin": {"@id":"gs1:gtin"},
+    "hasBatchLotNumber": {"@id":"gs1:hasBatchLotNumber"},
+    "priceSpecification": {"@id":"gs1:priceSpecification"},
+    "priceCurrency": {"@id":"gs1:priceCurrency"},
+    "dutyFeeTaxDescription": {"@id":"gs1:dutyFeeTaxDescription"},
+    "value": {"@id":"gs1:value"},
+    "unitCode": {"@id":"gs1:unitCode"},
+    "organizationName" : {"@id":"gs1:organizationName"},
+    "address" : {"@id":"gs1:address"},
+    "streetAddress" : {"@id":"gs1:streetAddress"},
+    "addressLocality" : {"@id":"gs1:addressLocality"},
+    "postalCode" : {"@id":"gs1:postalCode"},
+    "addressCountry" : {"@id":"gs1:addressCountry"},
+    "countryCode" : {"@id":"gs1:countryCode"},
+
+    "ContactPoint": {"@id":"gs1:ContactPoint"},
+    "QuantitativeValue": {"@id":"gs1:QuantitativeValue"},
+    "Product": {"@id":"gs1:Product"},
+    "Organization": {"@id":"gs1:Organization"},
+    "PostalAddress": {"@id":"gs1:PostalAddress"},
+    "PriceSpecification": {"@id":"gs1:PriceSpecification"},
+
+    
+  }
+}
