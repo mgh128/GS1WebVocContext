@@ -56,7 +56,6 @@
     "priceSpecification": {"@id":"gs1:priceSpecification"},
     "priceCurrency": {"@id":"gs1:priceCurrency"},
     "dutyFeeTaxDescription": {"@id":"gs1:dutyFeeTaxDescription"},
-    "value": {"@id":"gs1:value"},
     "unitCode": {"@id":"gs1:unitCode"},
     "organizationName" : {"@id":"gs1:organizationName"},
     "address" : {"@id":"gs1:address"},
