@@ -19,6 +19,10 @@
       "@id":"gs1x:amount",
       "@type": "xsd:float"
     },
+    "seller": { "@id":"gs1x:seller" },
+    "buyer": { "@id":"gs1x:buyer" },
+    "paymentDetails": { "@id":"gs1x:paymentDetails" },
+    "hasLineItem": { "@id":"gs1x:hasLineItem" },
 
 
     "expirationDate": {
